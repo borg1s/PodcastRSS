@@ -7,7 +7,10 @@ using System.ServiceModel.Syndication;
 
 namespace Podcast.Business_logic_layer
 {
-    class Avsnitt
+    public class Avsnitt
     {
+        public string Namn { get; set; } // är setmetoden viktig att ha kvar?
+        public decimal Langd { get; set; }
+
     }
 }
